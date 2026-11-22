@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <group android:id="@+id/gp_one">
+        <item
+            android:icon="@drawable/ic_theme_light_dark_black_24dp"
+            android:id="@+id/nav_switch_theme"
+            android:title="@string/nav_item_theme"
+            app:actionLayout="@layout/nav_auto_refresh_switch"/>
+    </group>
+    <group android:id="@+id/gp_two">
+        <item
+            android:icon="@drawable/ic_connect_device_black_24dp"
+            android:id="@+id/nav_item_connwifi"
+            android:title="@string/nav_item_connwifi"/>
+        <item
+            android:icon="@drawable/ic_scan_device_2_black_24dp"
+            android:id="@+id/nav_item_scanwifi"
+            android:title="@string/nav_item_scanwifi"/>
+    </group>
+    <group
+        android:id="@+id/gp_three"
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_water_pump_black_24dp"
+            android:id="@+id/nav_item_pump"
+            android:checked="true"
+            android:title="@string/nav_item_pump"/>
+        <item
+            android:icon="@drawable/ic_light_black_24dp"
+            android:id="@+id/nav_item_lights"
+            android:title="@string/nav_item_lights"/>
+        <item
+            android:icon="@drawable/ic_device_sensors_black_24dp"
+            android:id="@+id/nav_item_sensors"
+            android:title="@string/nav_item_sensors"/>
+        <item
+            android:icon="@drawable/ic_logs_black_24dp"
+            android:id="@+id/nav_item_logs"
+            android:title="@string/nav_item_logs"/>
+    </group>
+    <group android:id="@+id/gp_four">
+        <item
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:id="@+id/nav_item_appsetting"
+            android:title="@string/nav_item_appsetting"/>
+        <item
+            android:icon="@drawable/ic_help_black_24dp"
+            android:id="@+id/nav_item_help"
+            android:title="@string/nav_item_help"/>
+    </group>
+</menu>

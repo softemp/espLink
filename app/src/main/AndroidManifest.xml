@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <application
+        android:theme="@style/MyMaterialTheme.Launcher"
+        android:label="@string/app_name"
+        android:icon="@drawable/launcher_icon"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+        <activity
+            android:theme="@style/MyMaterialTheme.Launcher"
+            android:label="@string/app_name"
+            android:name="fatima.tech.espnetsmart.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/MyMaterialTheme.Blue"
+            android:label="@string/str_settings_title"
+            android:name="fatima.tech.espnetsmart.SettingsActivity"
+            android:parentActivityName="fatima.tech.espnetsmart.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fatima.tech.espnetsmart.MainActivity"/>
+        </activity>
+        <activity
+            android:theme="@style/MyMaterialTheme.BlueGrey"
+            android:label="@string/title_activity_help"
+            android:name="fatima.tech.espnetsmart.HelpActivity"
+            android:parentActivityName="fatima.tech.espnetsmart.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fatima.tech.espnetsmart.MainActivity"/>
+        </activity>
+        <activity
+            android:theme="@style/MyMaterialTheme.BlueGrey"
+            android:label="@string/title_activity_about"
+            android:name="fatima.tech.espnetsmart.AboutActivity"
+            android:parentActivityName="fatima.tech.espnetsmart.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fatima.tech.espnetsmart.MainActivity"/>
+        </activity>
+        <activity
+            android:theme="@style/MyMaterialTheme.Orange"
+            android:label="@string/title_activity_contact_us"
+            android:name="fatima.tech.espnetsmart.ContactUsActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:parentActivityName="fatima.tech.espnetsmart.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="fatima.tech.espnetsmart.MainActivity"/>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:clickable="true"
+    android:layout_width="@dimen/dim_48dp"
+    android:layout_height="@dimen/dim_48dp">
+    <ProgressBar
+        android:theme="@style/CircularProgress"
+        android:layout_gravity="center"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="@dimen/dim_12dp"
+        android:layout_marginRight="@dimen/dim_12dp"
+        style="@android:style/Widget.Material.Light.ProgressBar.Small"/>
+</FrameLayout>

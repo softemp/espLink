@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <style name="CircularProgress" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+    <style name="MyMaterialTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorEdgeEffect">@color/md_grey_400</item>
+        <item name="md_negative_color">@color/md_red_500</item>
+        <item name="md_neutral_color">@color/md_blue_500</item>
+        <item name="md_positive_color">@color/md_green_500</item>
+        <item name="md_title_color">@color/md_blue_500</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorAccent">@color/md_blue_500</item>
+    </style>
+    <style name="MyMaterialTheme.AppBarOverlay" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="MyMaterialTheme.Blue" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorEdgeEffect">@color/md_blue_500</item>
+        <item name="colorPrimary">@color/md_blue_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_700</item>
+        <item name="colorAccent">@color/md_blue_500</item>
+    </style>
+    <style name="MyMaterialTheme.BlueGrey" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorEdgeEffect">@color/md_blue_grey_500</item>
+        <item name="colorPrimary">@color/md_blue_grey_500</item>
+        <item name="colorPrimaryDark">@color/md_blue_grey_700</item>
+        <item name="colorAccent">@color/md_orange_500</item>
+    </style>
+    <style name="MyMaterialTheme.Green" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorEdgeEffect">@color/colorGreen</item>
+        <item name="colorPrimary">@color/colorGreen</item>
+        <item name="colorPrimaryDark">@color/colorDeepGreen</item>
+        <item name="colorAccent">@color/colorGreen</item>
+    </style>
+    <style name="MyMaterialTheme.Launcher" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+    <style name="MyMaterialTheme.Orange" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorEdgeEffect">@color/md_orange_500</item>
+        <item name="colorPrimary">@color/md_orange_500</item>
+        <item name="colorPrimaryDark">@color/md_orange_700</item>
+        <item name="colorAccent">@color/md_orange_500</item>
+    </style>
+    <style name="MyMaterialTheme.PopupOverlay" parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColor">@drawable/action_menu_item_color</item>
+        <item name="android:tint">@drawable/action_menu_item_color</item>
+    </style>
+    <style name="MyMaterialTheme.Red" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorEdgeEffect">@color/md_red_500</item>
+        <item name="colorPrimary">@color/md_red_500</item>
+        <item name="colorPrimaryDark">@color/md_red_700</item>
+        <item name="colorAccent">@color/md_red_500</item>
+    </style>
+    <style name="MyMaterialTheme.Teal" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:colorEdgeEffect">@color/md_teal_500</item>
+        <item name="colorPrimary">@color/md_teal_500</item>
+        <item name="colorPrimaryDark">@color/md_teal_700</item>
+        <item name="colorAccent">@color/md_teal_500</item>
+    </style>
+    <style name="TimerOffDialogTheme" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:textColorPrimaryInverse">@color/colorWhite</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:numbersTextColor">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="colorControlNormal">@color/colorBlue</item>
+    </style>
+    <style name="TimerOnDialogTheme" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:textColorPrimaryInverse">@color/colorWhite</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:numbersTextColor">@color/colorWhite</item>
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="colorControlNormal">@color/colorBlue</item>
+    </style>
+    <style name="button_send_data_out" parent="">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/str_send_button</item>
+    </style>
+    <style name="button_send_data_type" parent="">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textOn" />
+        <item name="android:textOff" />
+        <item name="android:drawableStart">@drawable/select_log_send_option_button_bkg</item>
+    </style>
+    <style name="button_setting_sync" parent="">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_height">@dimen/dim_60dp</item>
+    </style>
+    <style name="card_view" parent="">
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/dim_8dp</item>
+        <item name="android:layout_marginBottom">@dimen/dim_8dp</item>
+        <item name="android:elevation">@dimen/dim_8dp</item>
+    </style>
+    <style name="card_view.I" parent="@style/card_view">
+        <item name="android:layout_height">@dimen/card_height</item>
+    </style>
+    <style name="card_view.II" parent="@style/card_view">
+        <item name="android:layout_height">96dp</item>
+    </style>
+    <style name="horizontal_line_divider" parent="">
+        <item name="android:background">?android:attr/listDivider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+    <style name="imageView_Icon" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="imageview_big_ico" parent="">
+        <item name="android:padding">@dimen/dim_12dp</item>
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="linear_layout_horizontal_1" parent="">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginEnd">@dimen/text_right_margin</item>
+    </style>
+    <style name="linear_layout_horizontal_2" parent="">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">@dimen/dim_12dp</item>
+        <item name="android:paddingTop">@dimen/dim_6dp</item>
+        <item name="android:paddingRight">@dimen/dim_12dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="linear_layout_vertical" parent="">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/dim_8dp</item>
+        <item name="android:paddingBottom">@dimen/dim_8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingStart">@dimen/dim_16dp</item>
+        <item name="android:paddingEnd">@dimen/dim_16dp</item>
+    </style>
+    <style name="nested_scrollview" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="relative_layout" parent="">
+        <item name="android:clipToPadding">false</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="relative_layout.I" parent="@style/relative_layout">
+        <item name="android:padding">@dimen/dim_12dp</item>
+        <item name="android:layout_height">@dimen/card_height</item>
+    </style>
+    <style name="relative_layout.II" parent="@style/relative_layout">
+        <item name="android:padding">@dimen/dim_12dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="relative_layout.III" parent="@style/relative_layout">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="text_style" parent="">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="text_style.I" parent="@style/text_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_marginTop">-8dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginEnd">@dimen/text_right_margin</item>
+    </style>
+    <style name="text_style.I.a" parent="@style/text_style.I">
+        <item name="android:layout_marginTop">@dimen/dim_4dp</item>
+        <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:paddingStart">@dimen/dim_12dp</item>
+        <item name="android:layout_marginEnd">@dimen/dim_12dp</item>
+    </style>
+    <style name="text_style.II" parent="@style/text_style">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:text">@string/str_text_loading</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginEnd">@dimen/text_right_margin</item>
+    </style>
+    <style name="text_style.II.a" parent="@style/text_style.II">
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:paddingStart">@dimen/dim_12dp</item>
+        <item name="android:layout_marginEnd">@dimen/dim_12dp</item>
+    </style>
+    <style name="text_style.III" parent="@style/text_style">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="text_style.III.Info" parent="@style/text_style.III">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:text">@string/str_text_loading</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="text_style.III.Info.Tank" parent="@style/text_style.III.Info">
+        <item name="android:layout_marginBottom">-5dp</item>
+    </style>
+    <style name="text_style.III.Info.a" parent="@style/text_style.III.Info">
+        <item name="android:layout_marginBottom">@dimen/dim_4dp</item>
+        <item name="android:layout_alignParentLeft">false</item>
+        <item name="android:paddingStart">@dimen/dim_12dp</item>
+    </style>
+    <style name="text_style_header" parent="">
+        <item name="android:textSize">@dimen/fontSize_14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginStart">@dimen/dim_8dp</item>
+    </style>
+    <style name="text_style_timer" parent="">
+        <item name="android:textSize">@dimen/fontSize_26sp</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">-4dp</item>
+        <item name="android:text">@string/str_textTimer</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="text_style_timer.TimerOFF" parent="@style/text_style_timer">
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:layout_marginStart">@dimen/dim_6dp</item>
+        <item name="colorControlHighlight">@color/colorRed</item>
+    </style>
+    <style name="text_style_timer.TimerON" parent="@style/text_style_timer">
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginEnd">@dimen/dim_6dp</item>
+    </style>
+    <style name="text_style_timerOff_theme" parent="">
+        <item name="colorControlHighlight">@color/md_red_100</item>
+    </style>
+    <style name="text_style_timerOn_theme" parent="">
+        <item name="colorControlHighlight">@color/md_green_100</item>
+    </style>
+    <style name="text_style_timer_btnInset" parent="">
+        <item name="android:textSize">@dimen/fontSize_10sp</item>
+        <item name="android:textColor">@color/colorYellow</item>
+        <item name="android:layout_width">@dimen/toggle_button_large</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:text">00:00:00</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="text_style_timer_inset" parent="">
+        <item name="android:textSize">@dimen/fontSize_10sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">-3dp</item>
+        <item name="android:text">@string/str_textTimer</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_marginStart">1dp</item>
+    </style>
+    <style name="text_style_timer_inset.OFF" parent="@style/text_style_timer_inset">
+        <item name="android:text">@string/str_textTimer_off</item>
+    </style>
+    <style name="text_style_timer_inset.ON" parent="@style/text_style_timer_inset">
+        <item name="android:text">@string/str_textTimer_on</item>
+    </style>
+    <style name="text_view_logs_style" parent="">
+        <item name="android:paddingLeft">@dimen/dim_12dp</item>
+        <item name="android:paddingRight">@dimen/dim_12dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="text_view_logs_style.content" parent="@style/text_view_logs_style">
+        <item name="android:textSize">@dimen/fontSize_12sp</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/dim_4dp</item>
+        <item name="android:layout_marginEnd">@dimen/dim_4dp</item>
+    </style>
+    <style name="text_view_logs_style.subTitle" parent="@style/text_view_logs_style">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="text_view_logs_style.title" parent="@style/text_view_logs_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="toggle_button_large" parent="">
+        <item name="android:textSize">@dimen/fontSize_22sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/toggle_button_round_ripple_selector1</item>
+        <item name="android:layout_width">@dimen/toggle_button_large</item>
+        <item name="android:layout_height">@dimen/toggle_button_large</item>
+        <item name="android:textOn">@string/str_textON</item>
+        <item name="android:textOff">@string/str_textOFF</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:elevation">@dimen/fontSize_8sp</item>
+    </style>
+    <style name="tri_toggle_button" parent="">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/tri_toggle_button_ripple_selector1</item>
+        <item name="android:layout_width">@dimen/toggle_button_large</item>
+        <item name="android:layout_height">@dimen/toggle_button_small</item>
+        <item name="android:layout_marginTop">@dimen/dim_8dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:paddingStart">@dimen/dim_8dp</item>
+        <item name="android:paddingEnd">@dimen/dim_8dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="tri_toggle_button.I" parent="@style/tri_toggle_button">
+        <item name="android:drawableStart">@drawable/tri_toggle_button_icon_selector1</item>
+    </style>
+    <style name="tri_toggle_button.II" parent="@style/tri_toggle_button">
+        <item name="android:drawableStart">@drawable/tri_toggle_button_icon_selector2</item>
+    </style>
+</resources>

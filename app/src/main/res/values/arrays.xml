@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <array name="ac_power_rating_list_title">
+        <item>110 Volts</item>
+        <item>220 Volts</item>
+    </array>
+    <array name="ac_power_rating_list_values">
+        <item>110</item>
+        <item>220</item>
+    </array>
+    <array name="battery_rating_list_title">
+        <item>9 Volts</item>
+        <item>12 Volts</item>
+        <item>18 Volts</item>
+        <item>24 Volts</item>
+    </array>
+    <array name="battery_rating_list_values">
+        <item>9</item>
+        <item>12</item>
+        <item>18</item>
+        <item>24</item>
+    </array>
+    <array name="gplus_colors">
+        <item>@color/colorRed</item>
+        <item>@color/colorGreen</item>
+        <item>@color/colorOrange</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorYellow</item>
+    </array>
+    <array name="nav_item_activity_titles">
+        <item>Water Pump</item>
+        <item>Light Switches</item>
+        <item>Weather and Climate</item>
+        <item>Power Status</item>
+    </array>
+    <array name="pref_sync_freq_list_titles">
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>45 seconds</item>
+        <item>60 seconds</item>
+    </array>
+    <array name="pref_sync_freq_list_values">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </array>
+    <array name="pref_themes_list_titles">
+        <item>Day Theme</item>
+        <item>Night Theme</item>
+        <item>DayNight Theme</item>
+    </array>
+    <array name="pref_themes_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="screenPromptAction">
+        <item>Auto Enable Bluetooth</item>
+        <item>Prompt to Enable Bluetooth</item>
+    </array>
+    <array name="screenPromptActionValues">
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="updateInterval">
+        <item>Every 0.5 second</item>
+        <item>Every 1 second</item>
+        <item>Every 2 second</item>
+        <item>Every 5 second</item>
+        <item>Every 10 second</item>
+        <item>Every 15 second</item>
+    </array>
+    <array name="updateIntervalValues">
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+    </array>
+</resources>

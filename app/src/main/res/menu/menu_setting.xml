@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_refresh_2_black_24dp"
+        android:id="@+id/action_refresh"
+        android:title="@string/action_download_settings"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_restore_settings_black_24dp"
+        android:id="@+id/action_format"
+        android:title="@string/action_format"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_rate_me_black_24dp"
+        android:id="@+id/action_rateus"
+        android:title="@string/action_rateus"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_share_black_24dp"
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_feedback_black_24dp"
+        android:id="@+id/action_feedback"
+        android:title="@string/action_contact_us"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_help_black_24dp"
+        android:id="@+id/action_help"
+        android:title="@string/action_help"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_info_black_mod_24dp"
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        app:showAsAction="never"/>
+</menu>

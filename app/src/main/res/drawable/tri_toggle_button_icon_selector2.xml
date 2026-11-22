@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:CustomButtonState="http://schemas.android.com/apk/res-auto">
+    <item
+        android:drawable="@drawable/ic_timer_btn_bkg_black_24dp"
+        CustomButtonState:triToggleBtn_state_three="true"/>
+    <item
+        android:drawable="@drawable/ic_fill_black_24dp"
+        CustomButtonState:triToggleBtn_state_two="true"/>
+    <item android:drawable="@drawable/ic_manual_btn_bkg_black_24dp"/>
+</selector>

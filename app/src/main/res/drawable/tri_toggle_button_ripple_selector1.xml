@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:CustomButtonState="http://schemas.android.com/apk/res-auto" android:color="?android:attr/colorControlHighlight">
+    <item android:id="@android:id/mask">
+        <shape>
+            <solid android:color="@color/colorAccent"/>
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+    <item>
+        <selector>
+            <item CustomButtonState:triToggleBtn_state_three="true">
+                <shape>
+                    <solid android:color="@color/colorGreen"/>
+                    <corners android:radius="20dp"/>
+                </shape>
+            </item>
+            <item CustomButtonState:triToggleBtn_state_two="true">
+                <shape>
+                    <solid android:color="@color/colorBlue"/>
+                    <corners android:radius="20dp"/>
+                </shape>
+            </item>
+            <item CustomButtonState:triToggleBtn_state_one="true">
+                <shape>
+                    <solid android:color="@color/colorOrange"/>
+                    <corners android:radius="20dp"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

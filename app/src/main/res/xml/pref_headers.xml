@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:icon="@drawable/ic_settings_black_36dp"
+        android:title="@string/str_app_settings_title"
+        android:summary="@string/str_app_settings_summary"
+        android:fragment="fatima.tech.espnetsmart.SettingsActivity$AppPreferenceFragment"/>
+    <header
+        android:icon="@drawable/ic_device_settings_black_36dp"
+        android:title="@string/str_dev_settings_title"
+        android:summary="@string/str_dev_settings_summary"
+        android:fragment="fatima.tech.espnetsmart.SettingsActivity$DevicePreferenceFragment"/>
+</preference-headers>
